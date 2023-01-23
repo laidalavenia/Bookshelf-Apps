@@ -1,0 +1,93 @@
+.card {
+  top: 30px;
+  width: 90%;
+  max-width: 600px;
+  color: rgb(16, 15, 15);
+  padding: 50px 35px;
+  border: 1px solid rgba(255, 255, 255 0.3);
+  background: #e5e0ff !important;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  background-color: #9190dc;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  color: #f9f9f9;
+}
+
+nav ul {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+nav .namaku {
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 3px;
+}
+
+.btn {
+  background: #7286d3 !important;
+}
+
+.book_shelf {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 1px solid rgb(235, 228, 228);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.book_shelf > h2 {
+  color: #8ea7e9;
+}
+
+.book_shelf > .book_list {
+  padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item > {
+  padding: 8px 16px 16px 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.book_shelf > .book_list > .book_item > h3,
+p {
+  margin: 8px 0;
+}
+
+.book_shelf > .book_list > .action > .book_item > button {
+  border: 0;
+  padding: 5px;
+  margin: 0 5px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book_shelf > .book_list > .book_item > .action > .green {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.book_shelf > .book_list > .book_item > .action > .red {
+  background-color: #e74c3c;
+  color: white;
+}
