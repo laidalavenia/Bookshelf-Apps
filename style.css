@@ -41,6 +41,8 @@ nav .namaku {
 
 .btn {
   background: #7286d3 !important;
+  color: white !important;
+  align-items: center;
 }
 
 .book_shelf {
@@ -78,16 +80,23 @@ p {
   border: 0;
   padding: 5px;
   margin: 0 5px 0 0;
-  border-radius: 5px;
   cursor: pointer;
 }
 
 .book_shelf > .book_list > .book_item > .action > .green {
   background-color: #2ecc71;
   color: white;
+  padding: 6px;
+  margin-right: 7px;
+  border-radius: 5px;
+  border: none;
 }
 
 .book_shelf > .book_list > .book_item > .action > .red {
   background-color: #e74c3c;
   color: white;
+  padding: 6px;
+  margin-right: 7px;
+  border-radius: 5px;
+  border: none;
 }
